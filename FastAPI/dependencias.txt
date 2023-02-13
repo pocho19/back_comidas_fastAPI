@@ -1,0 +1,39 @@
+
+fastapi
+python-jose [cryptography]
+passlib
+bcrypt
+pymongo
+python-multipart
+
+
+
+
+pip install "fastapi[all]"
+        pip install fastapi
+        pip install "uvicorn[standard]"
+pip install "python-jose[cryptography]"
+pip install "passlib[bcrypt]"
+pip install pymongo
+
+
+
+
+
+fastapi --> localhost:8000
+
+swagger --> localhost:8000/docs
+
+
+main.py
+
+uvicorn main:app --reload
+
+C:\Program Files\MongoDB\Server\6.0\data\
+
+
+
+
+
+
+python-multipart
